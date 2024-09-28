@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO4 Game</title>
+    <link rel="stylesheet" href="nextpage.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Welcome to XO<sup>4</sup></h1>
+        <div id="board" class="board"></div>
+        <div id="message" class="message">Player X's turn</div>
+        <button id="reset">Reset Game</button>
+    </div>
+
+    <!-- Modal for win message -->
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <p id="winMessage"></p>
+            <button id="restart">Restart Game</button>
+            <button id="viewBoard">View Board</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
